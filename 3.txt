@@ -8,7 +8,7 @@ function podzielna(a) {
   return c;
 }
 
-j=1;
+j=1;2
 d=2;
 while(j<=2000){
   b=podzielna(d);
