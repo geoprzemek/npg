@@ -1,4 +1,4 @@
-<script type="text/javascript">
+253225<script type="text/javascript">
 
 function podzielna(a) {
   with(Math)b=floor(sqrt(a));c=false;
