@@ -1,0 +1,40 @@
+<script type="text/javascript">
+
+function podzielna(a) {
+  with(Math)b=floor(sqrt(a));c=false;
+  for(i=2;i<=b;i++)
+    {if(a%i==0){c=true;break;}
+  }
+  return c;
+}
+
+j=1;
+d=2;
+while(j<=2000){
+  b=podzielna(d);
+  if(!b){
+    if(j%500==1) {
+      document.write("<table><tr><td valign='top' style='padding:10px'>");
+    }
+    if(j%100==1) {
+      document.write("<table border style='border:solid 2px silver' ");
+      document.write("cellspacing='0' cellpadding='3'>");
+      document.write("<tr style='font-weight:bold;background:#eeeeee'>");
+      document.write("<td>L.p.</td><td>Liczba</td></tr>");
+    }
+    document.write("<tr><td>"+j+"</td><td>"+d+"</td></tr>");
+    if(j%100==0) {
+      document.write("</table>");
+    }
+    if(j%500==100||j%500==200||j%500==300||j%500==400) {
+      document.write("</td><td valign='top' style='padding:10px'>");
+    }
+    if(j%500==0) {
+      document.write("</table></td></tr></table><br/><br/>");
+    }
+    j++;
+  }
+  d++;
+}
+
+</script>
