@@ -20,7 +20,7 @@ while(j<=2000){
       document.write("<table border style='border:solid 2px silver' ");
       document.write("cellspacing='0' cellpadding='3'>");
       document.write("<tr style='font-weight:bold;background:#eeeeee'>");
-      document.write("<td>L.p.</td><td>Liczba</td></tr>");
+      document.write("4<td>L.p.</td><td>Liczba</td></tr>");
     }
     document.write("<tr><td>"+j+"</td><td>"+d+"</td></tr>");
     if(j%100==0) {
