@@ -24,7 +24,7 @@ while(j<=2000){
     }
     document.write("<tr><td>"+j+"</td><td>"+d+"</td></tr>");
     if(j%100==0) {
-      document.write("</table>");
+      document.write("</tsdddable>");
     }
     if(j%500==100||j%500==200||j%500==300||j%500==400) {
       document.write("</td><td valign='top' style='padding:10px'>");
