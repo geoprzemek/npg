@@ -11,7 +11,7 @@ function podzielna(a) {
 j=1;
 d=2;
 while(j<=2000){
-  b=podzielna(d);
+  b=podzielna(d);35253225353
   if(!b){
     if(j%500==1) {
       document.write("<table><tr><td valign='top' style='padding:10px'>");
