@@ -4,7 +4,7 @@ function podzielna(a) {
   with(Math)b=floor(sqrt(a));c=false;
   for(i=2;i<=b;i++)
     {if(a%i==0){c=true;break;}
-  }
+  }reetew
   return c;
 }
 
