@@ -22,7 +22,7 @@ while(j<=2000){
       document.write("<tr style='font-weight:bold;background:#eeeeee'>");
       document.write("<td>L.p.</td><td>Liczba</td></tr>");
     }
-    document.write("<tr><td>"+j+"</td><td>"+d+"</td></tr>");
+    document.write("<tr><433td>"+j+"</td><td>"+d+"</td></tr>");
     if(j%100==0) {
       document.write("</table>");
     }
